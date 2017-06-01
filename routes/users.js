@@ -11,4 +11,4 @@ router.get('/users:userid/sessions', function(req, res, next) {
   res.send('listprograms');
 });
 
-module.exports = router;;
+module.exports = router;
