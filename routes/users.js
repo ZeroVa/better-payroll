@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/users:userid/sessions', function(req, res, next) {
-  res.send('listprograms');
+  res.send('here are programs for you');
 });
 
 module.exports = router;
